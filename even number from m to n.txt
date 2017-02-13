@@ -1,0 +1,9 @@
+m=int(input('please enter from where to where you want to calculate: '))
+n=int(input('please enter from where to where you want to calculate: '))
+if (m%2) == 0 : 
+ for x in range(m,n,2):
+   print('even number s', x)
+
+else :
+  for x in range(m,n,2):
+    print ('even  number: ' , x+1)
